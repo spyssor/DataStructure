@@ -19,6 +19,13 @@ public class Array<E> {
         size = 0;
     }
 
+    public Array(E[] arr){
+        data = (E[])new Object[arr.length];
+        for(int i = 0 ; i < arr.length ; i ++)
+            data[i] = arr[i];
+        size = arr.length;
+    }
+
     //获取数组容量
     public int getCapacity(){
 
@@ -162,6 +169,17 @@ public class Array<E> {
             newData[i] = data[i];
         }
         data = newData;
+    }
+
+    public void swap(int i, int j){
+
+        if (i < 0 || i >= size || j < 0 || j >= size){
+            throw new IllegalArgumentException("index is illegal");
+        }
+
+        E t = data[j];
+        data[j] = data[i];
+        data[i] = t;
     }
 
     @Override
