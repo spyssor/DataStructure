@@ -2,7 +2,7 @@ package Map;
 
 import com.sun.deploy.util.StringUtils;
 
-public class BSTtreeMap<K extends Comparable<K>, V> implements Map<K, V> {
+public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
     private class Node{
 
@@ -22,7 +22,7 @@ public class BSTtreeMap<K extends Comparable<K>, V> implements Map<K, V> {
     private Node root;
     private int size;
 
-    public BSTtreeMap(){
+    public BSTMap(){
 
         root = null;
         size = 0;
