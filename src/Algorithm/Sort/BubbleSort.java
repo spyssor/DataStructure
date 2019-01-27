@@ -1,26 +1,27 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
-public class BubbleSort2 {
+public class BubbleSort {
 
     // 我们的算法类不允许产生任何实例
-    private BubbleSort2(){}
+    private BubbleSort(){}
 
     public static void sort(Comparable[] arr){
 
         int n = arr.length;
-        int newn; // 使用newn进行优化
+        boolean swapped = false;
 
         do{
-            newn = 0;
+            swapped = false;
             for( int i = 1 ; i < n ; i ++ )
                 if( arr[i-1].compareTo(arr[i]) > 0 ){
                     swap( arr , i-1 , i );
-
-                    // 记录最后一次的交换位置,在此之后的元素在下一轮扫描中均不考虑
-                    newn = i;
+                    swapped = true;
                 }
-            n = newn;
-        }while(newn > 0);
+
+            // 优化, 每一趟Bubble Sort都将最大的元素放在了最后的位置
+            // 所以下一次排序, 最后的元素可以不再考虑
+            n --;
+        }while(swapped);
     }
 
     private static void swap(Object[] arr, int i, int j) {
@@ -33,7 +34,7 @@ public class BubbleSort2 {
 
         int N = 20000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort.BubbleSort2", arr);
+        SortTestHelper.testSort("Algorithm.Sort.BubbleSort", arr);
 
         return;
     }

@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 import java.lang.reflect.Method;
 

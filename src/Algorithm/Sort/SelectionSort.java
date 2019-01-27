@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 public class SelectionSort{
 
@@ -31,7 +31,7 @@ public class SelectionSort{
 
         int N = 20000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort.SelectionSort", arr);
+        SortTestHelper.testSort("Algorithm.Sort.SelectionSort", arr);
 
         return;
     }

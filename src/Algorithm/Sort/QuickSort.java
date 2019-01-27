@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 public class QuickSort {
 
@@ -59,7 +59,7 @@ public class QuickSort {
         // 可以在1秒之内轻松处理100万数量级的数据
         int N = 1000000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort .QuickSort", arr);
+        SortTestHelper.testSort("Algorithm.Sort .QuickSort", arr);
 
         return;
     }

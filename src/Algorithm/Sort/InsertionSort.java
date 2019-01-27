@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 
 public class InsertionSort{
@@ -57,7 +57,7 @@ public class InsertionSort{
 
         int N = 10000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort.InsertionSort", arr);
+        SortTestHelper.testSort("Algorithm.Sort.InsertionSort", arr);
 
         return;
     }

@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 // 感谢github @zhengquan45 提出, 可以对选择排序进行优化
 // 在每一轮中, 可以同时找到当前未处理元素的最大值和最小值
@@ -43,7 +43,7 @@ public class SelectionSort2 {
 
         int N = 20000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort.SelectionSort2", arr);
+        SortTestHelper.testSort("Algorithm.Sort.SelectionSort2", arr);
 
         return;
     }

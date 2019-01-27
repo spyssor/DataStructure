@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 import java.util.Arrays;
 
@@ -23,14 +23,14 @@ public class Main {
         Integer[] arr7 = Arrays.copyOf(arr1, arr1.length);
         Integer[] arr8 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("Algrithm.Sort.SelectionSort2", arr1);
-        SortTestHelper.testSort("Algrithm.Sort.InsertionSort", arr2);
-        SortTestHelper.testSort("Algrithm.Sort.BubbleSort2", arr3);
-        SortTestHelper.testSort("Algrithm.Sort.ShellSort", arr4);
-        SortTestHelper.testSort("Algrithm.Sort.MergeSort", arr5);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort2Ways", arr6);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort3Ways", arr7);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr8);
+        SortTestHelper.testSort("Algorithm.Sort.SelectionSort2", arr1);
+        SortTestHelper.testSort("Algorithm.Sort.InsertionSort", arr2);
+        SortTestHelper.testSort("Algorithm.Sort.BubbleSort2", arr3);
+        SortTestHelper.testSort("Algorithm.Sort.ShellSort", arr4);
+        SortTestHelper.testSort("Algorithm.Sort.MergeSort", arr5);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort2Ways", arr6);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort3Ways", arr7);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr8);
 
         System.out.println();
 
@@ -48,14 +48,14 @@ public class Main {
         arr7 = Arrays.copyOf(arr1, arr1.length);
         arr8 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("Algrithm.Sort.SelectionSort2", arr1);
-        SortTestHelper.testSort("Algrithm.Sort.InsertionSort", arr2);
-        SortTestHelper.testSort("Algrithm.Sort.BubbleSort2", arr3);
-        SortTestHelper.testSort("Algrithm.Sort.ShellSort", arr4);
-        SortTestHelper.testSort("Algrithm.Sort.MergeSort", arr5);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort2Ways", arr6);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort3Ways", arr7);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr8);
+        SortTestHelper.testSort("Algorithm.Sort.SelectionSort2", arr1);
+        SortTestHelper.testSort("Algorithm.Sort.InsertionSort", arr2);
+        SortTestHelper.testSort("Algorithm.Sort.BubbleSort2", arr3);
+        SortTestHelper.testSort("Algorithm.Sort.ShellSort", arr4);
+        SortTestHelper.testSort("Algorithm.Sort.MergeSort", arr5);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort2Ways", arr6);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort3Ways", arr7);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr8);
 
         System.out.println();
 
@@ -71,10 +71,10 @@ public class Main {
         arr3 = Arrays.copyOf(arr1, arr1.length);
         arr4 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("Algrithm.Sort.MergeSort", arr1);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort2Ways", arr2);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort3Ways", arr3);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr4);
+        SortTestHelper.testSort("Algorithm.Sort.MergeSort", arr1);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort2Ways", arr2);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort3Ways", arr3);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr4);
 
         System.out.println();
 
@@ -90,10 +90,10 @@ public class Main {
         arr4 = Arrays.copyOf(arr1, arr1.length);
 
 
-        SortTestHelper.testSort("Algrithm.Sort.MergeSort", arr1);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort2Ways", arr2);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort3Ways", arr3);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr4);
+        SortTestHelper.testSort("Algorithm.Sort.MergeSort", arr1);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort2Ways", arr2);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort3Ways", arr3);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr4);
 
         System.out.println();
 
@@ -106,10 +106,10 @@ public class Main {
         arr3 = Arrays.copyOf(arr1, arr1.length);
         arr4 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("Algrithm.Sort.MergeSort", arr1);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort2Ways", arr2);
-        SortTestHelper.testSort("Algrithm.Sort.QuickSort3Ways", arr3);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr4);
+        SortTestHelper.testSort("Algorithm.Sort.MergeSort", arr1);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort2Ways", arr2);
+        SortTestHelper.testSort("Algorithm.Sort.QuickSort3Ways", arr3);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr4);
 
         return;
     }

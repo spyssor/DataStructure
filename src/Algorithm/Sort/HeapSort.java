@@ -1,4 +1,4 @@
-package Algrithm.Sort;
+package Algorithm.Sort;
 
 import Heap.MaxHeap;
 
@@ -25,7 +25,7 @@ public class HeapSort {
 
         int N = 1000000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("Algrithm.Sort.HeapSort", arr);
+        SortTestHelper.testSort("Algorithm.Sort.HeapSort", arr);
 
         return;
     }
