@@ -8,7 +8,7 @@ public class BubbleSort {
     public static void sort(Comparable[] arr){
 
         int n = arr.length;
-        boolean swapped = false;
+        boolean swapped;
 
         do{
             swapped = false;
