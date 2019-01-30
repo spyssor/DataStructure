@@ -1,4 +1,4 @@
-package Algorithm.UsingArray.LC2_LongestSubstringWithoutRepeatingCharacters;
+package Algorithm.UsingArray.LC3_LongestSubstringWithoutRepeatingCharacters;
 
 // 3. Longest Substring Without Repeating Characters
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
