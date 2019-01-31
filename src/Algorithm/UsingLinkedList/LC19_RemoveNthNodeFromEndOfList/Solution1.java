@@ -2,8 +2,6 @@ package Algorithm.UsingLinkedList.LC19_RemoveNthNodeFromEndOfList;
 
 import Algorithm.UsingLinkedList.LC208_ReverseLinkedList.ListNode;
 
-import java.util.List;
-
 // 19. Remove Nth Node From End of List
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 //
