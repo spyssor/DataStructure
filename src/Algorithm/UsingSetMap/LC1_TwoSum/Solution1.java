@@ -1,7 +1,5 @@
 package Algorithm.UsingSetMap.LC1_TwoSum;
 
-import HashTable.HashTable;
-
 import java.util.HashMap;
 
 // 1. Two Sum
