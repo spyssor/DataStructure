@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC46_Permutations;
+package Algorithm.RecursionAndBackStracking.LC46_Permutations;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

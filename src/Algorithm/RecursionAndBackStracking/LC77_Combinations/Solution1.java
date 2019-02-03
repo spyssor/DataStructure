@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC77_Combinations;
+package Algorithm.RecursionAndBackStracking.LC77_Combinations;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

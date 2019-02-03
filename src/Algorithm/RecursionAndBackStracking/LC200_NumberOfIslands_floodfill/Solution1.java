@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC200_NumberOfIslands_floodfill;
+package Algorithm.RecursionAndBackStracking.LC200_NumberOfIslands_floodfill;
 
 /// 200. Number of Islands
 /// https://leetcode.com/problems/number-of-islands/description/

@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC51_NQueens;
+package Algorithm.RecursionAndBackStracking.LC51_NQueens;
 
 import java.util.ArrayList;
 import java.util.Arrays;

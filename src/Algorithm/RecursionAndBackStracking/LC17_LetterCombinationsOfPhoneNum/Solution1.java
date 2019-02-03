@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC17_LetterCombinationsOfPhoneNum;
+package Algorithm.RecursionAndBackStracking.LC17_LetterCombinationsOfPhoneNum;
 
 import java.util.ArrayList;
 import java.util.List;

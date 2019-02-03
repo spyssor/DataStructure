@@ -1,4 +1,4 @@
-package Algorithm.RecurionAndBackstracking.LC79_WordSearch;
+package Algorithm.RecursionAndBackStracking.LC79_WordSearch;
 
 /// 79. Word Search
 /// Source : https://leetcode.com/problems/word-search/description/
