@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /// 300. Longest Increasing Subsequence
 /// https://leetcode.com/problems/longest-increasing-subsequence/description/
-/// 记忆化搜索
+/// 动态规划
 /// 时间复杂度: O(n^2)
 /// 空间复杂度: O(n)
 public class Solution2 {
