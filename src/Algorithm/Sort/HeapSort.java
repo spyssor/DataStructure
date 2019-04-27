@@ -1,6 +1,6 @@
 package Algorithm.Sort;
 
-import Heap.MaxHeap;
+import DataStructure.Heap.MaxHeap;
 
 public class HeapSort {
 

@@ -1,7 +1,5 @@
 package Algorithm.DynamicProgramming.LC416_PartitionEqualSubsetSum;
 
-import Array.Array;
-
 import java.util.Arrays;
 
 /// 416. Partition Equal Subset Sum

@@ -1,6 +1,5 @@
 package Algorithm.Sort;
 
-// 感谢github @zhengquan45 提出, 可以对选择排序进行优化
 // 在每一轮中, 可以同时找到当前未处理元素的最大值和最小值
 public class SelectionSort2 {
 

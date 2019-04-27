@@ -1,6 +1,6 @@
 package Algorithm.UsingQueue.LC279_PerfectSquares;
 
-import Link.LinkedList;
+import DataStructure.Link.LinkedList;
 import javafx.util.Pair;
 
 // 279. Perfect Squares

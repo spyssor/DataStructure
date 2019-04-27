@@ -73,7 +73,7 @@ public class Solution1 {
 
     public static void main(String[] args) {
 
-        int n = 8;
+        int n = 2;
         List<List<String>> res = (new Solution1()).solveNQueens(n);
         for(List<String> board: res)
             printBoard(board);
